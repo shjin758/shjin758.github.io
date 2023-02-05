@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="final_css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+
+    <title>Momentum</title>
+</head>
+
+<body>
+
+    <div id="weather" class="weather">
+        <span>Weather Info</span>
+        <span></span>
+    </div>
+
+    <div class="time">
+        <h2 id="date"></h2>
+        <h3 id="clock"></h3>
+    </div>
+
+    <form id="loginForm" class="hidden">
+        <input class="loginName" required type="text" placeholder="What is your name?" maxlength="20" />
+        <input class="loginbutton" type="submit" value=">" />
+    </form>
+    <h1 id="greeting" class="hidden"></h1>
+
+    <h5>
+        Your To-Do List:
+    </h5>
+
+    <form id="todo-form">
+        <input class="todolist" type="text" placeholder="Write your to do list" required>
+    </form>
+
+    <div class="container_1">
+        <ul id="todo-list"></ul>
+    </div>
+
+    <script src="final_clock.js"></script>
+    <script src="final_login.js"></script>
+
+    <script src="final_todolist.js"></script>
+    <script src="final_geolocation_weather.js"></script>
+    <script src="final_background.js"></script>
+</body>
+
+</html>
